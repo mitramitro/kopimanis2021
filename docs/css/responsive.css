@@ -1,0 +1,57 @@
+/* Untuk Tampilan di tablet */
+@media (max-width: 1000px) {
+  .content-item {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .content-item:hover {
+    font-weight: bold;
+  }
+
+  .container-text h1 {
+    font-size: 30px;
+  }
+  .container-text p {
+    font-size: 14px;
+  }
+  .btn-signup {
+    font-size: 14px;
+  }
+  .btn-email {
+    font-size: 14px;
+  }
+}
+/* Untuk Tampilan di Smartphone */
+@media (max-width: 670px) {
+  .content-item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .content-item:hover {
+    font-weight: bold;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  span.menu-icon {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .container-text h1 {
+    font-size: 30px;
+  }
+  .container-text p {
+    font-size: 14px;
+  }
+  .btn-signup {
+    font-size: 14px;
+  }
+  .btn-email {
+    font-size: 14px;
+  }
+} ;
